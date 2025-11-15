@@ -2,6 +2,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background: linear-gradient(to bottom, #243B55, #141E30);
     color: #e8ebe8;
@@ -248,11 +249,10 @@ nav ul li a img:hover {
 }
 
 .contact-section a[href^="mailto:"] {
-    color: #87CEEB; 
+    color: #CAF3FF; 
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .contact-section a[href^="mailto:"]:hover {
-    color: #B0E2FF;
+    color: #638691;
 }
