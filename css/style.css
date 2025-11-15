@@ -246,3 +246,13 @@ nav ul li a img:hover {
     max-width: 800px;
     margin: 0 auto 1rem auto;
 }
+
+.contact-section a[href^="mailto:"] {
+    color: #87CEEB; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-section a[href^="mailto:"]:hover {
+    color: #B0E2FF;
+}
